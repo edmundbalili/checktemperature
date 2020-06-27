@@ -1,4 +1,4 @@
-# CheckTemperature
+# Checktemperature
 
 This application is a simple working proof-of-concept Laravel project that will get the average weather temperatures on various API services (such as openweather.org).
 Currently this application uses services from https://openweathermap.org and  https://www.weatherapi.com
@@ -23,6 +23,7 @@ Note when creating new service:
 Open command:
 ```sh
 $ composer install
+$ php artisan migrate
 ```
 ### Known bugs
   - Some cities on the dropdown are incorrect which will yield invalid location
